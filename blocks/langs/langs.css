@@ -1,0 +1,16 @@
+@import url(./__item/langs__item.css);
+@import url(./__link/langs__link.css);
+
+.langs {
+
+  list-style-type: none;
+  margin: 0 0 6px;
+  padding: 0;
+  }
+
+  @media screen and (max-width: 320px) {
+    .langs {
+      margin-bottom: 4px;
+    }
+  }
+
