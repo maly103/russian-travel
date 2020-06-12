@@ -3,4 +3,5 @@
   background: #2A2C2F;
   font-family: "Inter", sans-serif;
   margin: 0 auto;
+  text-rendering: optimizeLegibility;
 }
