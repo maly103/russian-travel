@@ -1,0 +1,19 @@
+@import url(./__item/nav__item.css);
+@import url(./__link/nav__link.css);
+
+.nav {
+  display: grid;
+  grid: 18px;
+  grid-template-columns: repeat(5,auto);
+  grid-gap: 18px;
+  }
+
+@media screen and (max-width: 480px){
+.nav{
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5,auto);
+  grid-row-gap: 32px;
+}
+
+
+}
