@@ -12,7 +12,6 @@
   <div class="page">
 
     <header class="header">
-
        <svg class="header__logo" width="176" height="52" viewBox="0 0 176 52" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M7.76534 23.3826L10.4107 22.0738L14.592 15.7919L15.872 15.2685L17.2374 21.6376L15.4454 21.8993L14.08 19.2819L13.056 23.3826H17.5787L22.272 24.604L24.1494 23.3826L27.3067 26.698L28.672 20.5906L30.8907 22.8591L32.256 20.9396L34.4747 20.3289L37.7174 17.2752L38.2294 15.7919L40.8747 16.2282L41.9841 17.7114L40.0214 21.8993L44.8854 19.3691V18.1476L46.7627 17.7114L48.8107 19.8054L50.8587 17.2752V15.5302L54.1867 13.1745L55.5521 11.1678H57.6854L61.4401 3.40268L64.6828 0L65.8774 1.91946L64.0001 4.36242L64.6828 5.93289L66.4748 6.28188L67.9254 12.7383V18.1476L70.4854 21.7248L71.7654 26.698L67.3281 23.8188L65.3654 15.5302L64.1707 15.7919L64.0001 21.3758L60.7574 26.698L59.8187 34.8121L62.0374 35.3356L62.9761 34.2013L65.1094 36.6443L66.7307 43.9732L66.5601 48.6846H64.5121L63.7441 42.0537L62.2934 44.0604L59.1361 43.3624L56.5761 41.1812L53.6747 42.2282L53.8454 46.9396L51.5414 47.5503L48.1281 50.1678L44.0321 49.6443L42.4107 48.6846L39.8507 49.1208L40.7041 50.1678L38.6561 51.3893L37.0347 50.604L33.9627 52L29.2694 49.6443L27.4774 45.4564L25.9414 45.6309L24.1494 44.1477L24.064 43.0134L18.3467 42.4027L17.408 45.5436L13.824 43.8859L12.032 40.8322H8.19201L7.76534 45.7181L5.54667 46.4161L4.43734 50.8658L3.584 50.0805L0 40.745L4.26667 38.651L3.584 34.5503L2.90134 30.3624L4.77867 27.6577L4.18134 26L6.74134 23.2081L7.76534 23.3826ZM64.5121 33.6779L68.4374 39.6107L69.7174 39.0872L68.0961 36.6443L64.5121 32.8054V33.6779ZM24.4054 21.6376V19.8926L27.392 17.7114L29.952 16.4027H26.9654L24.32 17.9732L22.6987 19.4564V21.6376H24.4054Z" fill="white"/>
         <path d="M89.8314 41.0004H94.5546V35.8186H97.171C101.138 35.8186 103.797 33.4749 103.797 29.7164C103.797 26.0004 101.206 23.5459 97.3409 23.5459H89.8314V41.0004ZM94.5546 32.1368V27.33H96.2196C97.8761 27.33 98.87 28.2164 98.87 29.7164C98.87 31.2078 97.8761 32.1368 96.2196 32.1368H94.5546Z" fill="white"/>
@@ -22,28 +21,24 @@
         <path d="M153.701 35.0004V27.9095H149.283V41.0004H153.701L157.337 33.8754V41.0004H161.754V27.9095H157.337L153.701 35.0004Z" fill="white"/>
         <path d="M171.651 41.0004H176V27.9095H169.884C166.12 27.9095 163.742 29.8186 163.767 32.4777C163.75 33.9692 164.642 35.205 166.205 35.9379L163.631 41.0004H167.947L170.147 36.6709H171.651V41.0004ZM171.651 33.8414H169.986C168.737 33.8414 168.159 33.2277 168.185 32.6482C168.159 32.1027 168.703 31.4209 169.884 31.4209H171.651V33.8414Z" fill="white"/>
       </svg>
-
-       <ul class="langs">
-         <li class="langs__item"><a class="langs__link langs__link_active" href="#">Ru</a></li>
-         <li class="langs__item"><a class="langs__link" href="#">En</a></li>
+       <ul class="list list_check_lang">
+         <li class="list__item list__item_check_lang"><a class="link link__lang_active" href="#">Ru</a></li>
+         <li class="list__item list__item_check_lang"><a class="link" href="#">En</a></li>
        </ul>
-
    </header>
 
    <main class="content">
 
      <section class="lead">
-       <h1 class="lead__title">Путешествия по России</h1>
-       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-       <div class="img-container">
-         <img class="lead__img" src="./images/lead-polka.jpg" alt="вести на полке">
-       </div>
+       <h1 class="section-title section-title_size_l section-title__lead">Путешествия по России</h1>
+       <p class="section-subtitle section-subtitle_size_m section-subtitle__lead">Настоящая страна не в выпусках новостей, а здесь.</p>
+       <img class="lead__img" src="./images/lead-polka.jpg" alt="вести на полке">
        <p class="lead__caption">ваша полка — верхняя</p>
      </section>
 
      <section class="intro">
-      <h2 class="intro__title">Чего мы там не видели?</h2>
-      <paragraph class="intro__text">
+      <h3 class="section-title section-title_size_s section-title__intro">Чего мы там не видели?</h3>
+      <paragraph class="section-text section-text_size_l section-text__intro">
         По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
         но только 36% планируют провести отпуск в родной стране.
         Мол, чего мы тут, дома, не видели? На самом деле,
@@ -56,27 +51,27 @@
         Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
       </paragraph>
       <ul class="list">
-        <li class="list__item">Часовых поясов 11</li>
-        <li class="list__item">Объектов природного наследия ЮНЕСКО 12</li>
-        <li class="list__item">Объектов культурного наследия ЮНЕСКО 16</li>
-        <li class="list__item">Природных заповедников 105</li>
-        <li class="list__item">Аэропортов 241</li>
+        <li class="list__item list__item_type_text">Часовых поясов 11</li>
+        <li class="list__item list__item_type_text">Объектов природного наследия ЮНЕСКО 12</li>
+        <li class="list__item list__item_type_text">Объектов культурного наследия ЮНЕСКО 16</li>
+        <li class="list__item list__item_type_text">Природных заповедников 105</li>
+        <li class="list__item list__item_type_text">Аэропортов 241</li>
       </ul>
      </section>
 
-     <ul class="gallery list">
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-train.jpg" alt="поезд"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-atharva-tulsi.jpg" alt="атарва"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-tuman.jpg" alt="туман"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-sochi.jpg" alt="сочи"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-arisa.jpg" alt="ариза"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-baikal.jpg" alt="байкал"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-elbrus.jpg" alt="эльбрус"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-kondratiev.jpg" alt="кондратьев"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-kamchatka-1.jpg" alt="камчатка"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-kamchatka-2.jpg" alt="камчатка"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-baikal-2.jpg" alt="байкал"></li>
-       <li><img class="gallery__item" src="./images/gallery/photo-grid-ergaki.jpg" alt="ергаки"></li>
+     <ul class="list list_type_grid">
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-train.jpg" alt="поезд"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-atharva-tulsi.jpg" alt="атарва"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-tuman.jpg" alt="туман"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-sochi.jpg" alt="сочи"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-arisa.jpg" alt="ариза"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-baikal.jpg" alt="байкал"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-elbrus.jpg" alt="эльбрус"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-kondratiev.jpg" alt="кондратьев"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-kamchatka-1.jpg" alt="камчатка"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-kamchatka-2.jpg" alt="камчатка"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-baikal-2.jpg" alt="байкал"></li>
+       <li><img class="list__item list__item_type_gallery" src="./images/gallery/photo-grid-ergaki.jpg" alt="ергаки"></li>
      </ul>
 
      <ul class="places list">

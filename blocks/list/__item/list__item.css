@@ -1,5 +1,4 @@
-.list__item {
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 1.5;
-}
+@import url(./_check/list__item_check_lang.css);
+@import url(./_type/list__item_type_text.css);
+@import url(./_type/list__item_type_gallery.css);
+

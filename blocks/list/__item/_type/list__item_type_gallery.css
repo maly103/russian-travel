@@ -1,0 +1,26 @@
+.list__item_type_gallery {
+  width: 100%;
+  min-height: 213px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .list__item_type_gallery {
+    min-height: 225px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .list__item_type_gallery {
+    min-height: 264px;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .list__item_type_gallery {
+    min-height: 216px;
+
+  }
+}

@@ -1,0 +1,27 @@
+.list_type_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,284px);
+  grid-gap: 16px;
+  justify-content: center;
+ }
+
+@media screen and (max-width: 1024px){
+  .list_type_grid {
+    grid-template-columns: repeat(auto-fit,300px);
+    grid-gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .list_type_grid {
+    grid-template-columns: repeat(auto-fit,352px);
+    grid-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .list_type_grid {
+    grid-template-columns: repeat(auto-fit,288px);
+    grid-gap: 12px;
+  }
+}

@@ -1,0 +1,12 @@
+.section-subtitle_size_m {
+  font-size: 30px;
+  line-height: 1.2;
+  }
+
+  @media screen and (max-width: 320px) {
+    .section-subtitle_size_m {
+      font-size: 16px;
+      line-height: 125%;
+
+      }
+  }

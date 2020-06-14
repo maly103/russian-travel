@@ -1,16 +1,10 @@
-@import url(./__item/langs__item.css);
-@import url(./__link/langs__link.css);
-
-.langs {
+.list_check_lang {
   margin-bottom: 6px;
  }
 
  @media screen and (max-width: 600px) {
-  .langs {
+  .list_check_lang {
     margin: 0;
     padding-bottom: 6px;
   }
 }
-
-
-
