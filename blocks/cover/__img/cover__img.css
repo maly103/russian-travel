@@ -1,0 +1,10 @@
+.cover__img {
+  max-width: 1184px;
+  min-height: 740px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+
