@@ -1,4 +1,4 @@
-.section-title__lead {
+.section-title_view_lead {
   text-align: center;
   margin: 0 auto 32px;
   max-width: 720px;
@@ -8,13 +8,13 @@
 }
 
 @media screen and (max-width: 600px) {
-  .section-title__lead  {
+  .section-title_view_lead  {
     max-width: calc(100vw - 32px);
     }
 }
 
 @media screen and (max-width: 320px) {
-  .section-title__lead {
+  .section-title_view_lead {
     margin-bottom: 16px;
     padding-top: 5px;
     }

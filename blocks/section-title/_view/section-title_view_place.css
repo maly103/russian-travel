@@ -1,0 +1,7 @@
+.section-title_view_place {
+  grid-area: title;
+  align-self: start;
+  justify-self: start;
+  margin: 0;
+  padding: 0;
+  }

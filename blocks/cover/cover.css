@@ -1,11 +1,9 @@
 
 @import url(./__link/cover__link.css);
-@import url(./__img/cover__img.css);
-@import url(./__title/cover__title.css);
-@import url(./__subtitle/cover__subtitle.css);
+
 
 .cover {
-  max-width: 1184px;
+  max-width: calc(100vw - (100vw - 1184px));
   margin: 0 auto 92px;
 
   }

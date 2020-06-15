@@ -1,7 +1,7 @@
 @import url(./_size/section-text_size_l.css);
 @import url(./_size/section-text_size_x.css);
-@import url(./__intro/section-title__intro.css);
-@import url(./__place/section-text__place.css);
+@import url(./_view/section-text_view_intro.css);
+@import url(./_view/section-text_view_place.css);
 
 .section-text {
   font-family: 'Inter', sans-serif;

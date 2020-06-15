@@ -1,5 +1,8 @@
 @import url(./_size/section-subtitle_size_m.css);
-@import url(./__lead/section-subtitle__lead.css);
+@import url(./_size/section-subtitle_size_s.css);
+
+@import url(./_view/section-subtitle_view_lead.css);
+@import url(./_view/section-subtitle_view_cover.css);
 
 .section-subtitle {
   font-family: "Inter", sans-serif;

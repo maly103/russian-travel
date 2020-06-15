@@ -1,4 +1,4 @@
-.section-subtitle__lead {
+.section-subtitle_view_lead {
   display: block;
   margin: 0 auto 64px;
   max-width: 640px;
@@ -6,19 +6,19 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .section-subtitle__lead {
+    .section-subtitle_view_lead  {
       margin-bottom: 56px;
       }
   }
 
   @media screen and (max-width: 540px) {
-    .section-subtitle__lead {
+    .section-subtitle_view_lead  {
       max-width: calc(100vw - 32px);
       }
   }
 
   @media screen and (max-width: 320px) {
-    .section-subtitle__lead {
+    .section-subtitle_view_lead {
       margin-bottom: 40px;
       padding: 0 5px;
       }

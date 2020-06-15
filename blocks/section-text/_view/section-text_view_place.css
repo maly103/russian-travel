@@ -1,14 +1,14 @@
-.section-text__place {
+.section-text_view_place {
   margin: 0;
   padding-bottom: 24px;
 }
 
-.section-text__place:last-of-type {
+.section-text_view_place:last-of-type {
   padding: 0;
 }
 
 @media screen and (max-width: 768px){
-  .section-text__place {
+  .section-text_view_place  {
     font-size: 16px;
     line-height: 162%;
 
