@@ -3,7 +3,7 @@
 
 
 .lead {
-  max-width: calc(100vw - 296px);
+  max-width: calc(100vw - (100vw - 984px));
   margin: 0 auto;
 }
 

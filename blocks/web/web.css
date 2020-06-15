@@ -1,0 +1,13 @@
+@import url(./__place-heading/web__place-heading.css);
+@import url(./__place-link/web__place-link.css);
+
+.web {
+  grid-area: web;
+  align-self: end;
+  justify-self: start;
+}
+@media screen and (max-width: 414px) {
+  .web {
+    display: none;
+  }
+}

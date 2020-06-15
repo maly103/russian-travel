@@ -1,6 +1,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/list/list.css);
+@import url(../blocks/list/_type/list_type_places.css);
 @import url(../blocks/list/_lang/list_check_lang.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/section-title/section-title.css);
@@ -9,12 +10,15 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/section-text/section-text.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/web/web.css);
+@import url(../blocks/text-place/text-place.css);
+@import url(../blocks/place-image/place-image.css);
 
 
 
 
 
-@import url(../blocks/places/places.css);
+
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/nav/nav.css);

@@ -1,7 +1,7 @@
 @import url(./__logo/header__logo.css);
 
 .header {
-  max-width: calc(100vw - 96px);
+  max-width: calc(100vw - (100vw - 1184px));
   margin: 0 auto 56px;
   padding-top: 28px;
   display: flex;

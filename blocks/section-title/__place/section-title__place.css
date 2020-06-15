@@ -1,0 +1,10 @@
+.section-title__place {
+    grid-area: title;
+    align-self: start;
+    justify-self: start;
+    margin: 0;
+    padding: 0;
+    }
+  
+  
+   

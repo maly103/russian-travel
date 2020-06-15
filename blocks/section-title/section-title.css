@@ -1,7 +1,9 @@
 @import url(./_size/section-title_size_l.css);
 @import url(./_size/section-title_size_s.css);
+@import url(./_size/section-title_size_m.css);
 @import url(./__lead/section-title__lead.css);
 @import url(./__intro/section-title__intro.css);
+@import url(./__place/section-title__place.css);
 
 .section-title {
   font-family: "Inter",sans-serif;

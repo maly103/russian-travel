@@ -1,0 +1,12 @@
+.section-text_size_x {
+  font-size: 18px;
+  line-height: 167%;
+ }
+
+@media screen and (max-width: 768px){
+  .section-text_size_x {
+    font-size: 16px;
+    line-height: 162%;
+
+  }
+}
