@@ -1,7 +1,4 @@
-@import url(./__item/nav__item.css);
-@import url(./__link/nav__link.css);
-
-.nav {
+.list_type_nav {
   display: grid;
   grid: 18px;
   grid-template-columns: repeat(5,auto);
@@ -9,11 +6,9 @@
   }
 
 @media screen and (max-width: 480px){
-.nav{
+.list_type_nav{
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5,auto);
   grid-row-gap: 32px;
-}
-
-
+  }
 }
