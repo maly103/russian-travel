@@ -1,8 +1,10 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/list/list.css);
+
 @import url(../blocks/list/_type/list_type_places.css);
 @import url(../blocks/list/_check/list_check_lang.css);
+
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/__nav/link__nav.css);
 @import url(../blocks/section-title/section-title.css);
