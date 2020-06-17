@@ -9,6 +9,13 @@
   align-items: flex-end;
   }
 
+  @media screen and (max-width: 1200px) {
+    .header {
+      max-width: calc(100vw - 96px);
+      margin-bottom: 48px;
+      }
+  }
+
   @media screen and (max-width: 1024px) {
     .header {
       margin-bottom: 48px;
