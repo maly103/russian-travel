@@ -1,6 +1,4 @@
 @import url(./__item/list__item.css);
-@import url(./_type/list_type_gallery.css);
-@import url(./_type/list_type_nav.css);
 
 .list {
   list-style-type: none;

@@ -1,0 +1,27 @@
+.places__place-heading {
+  grid-area: web;
+  align-self: end;
+  justify-self: start;
+  display: block;
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 170%;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
+  margin: 0 0 30px;
+  padding: 0;
+
+}
+
+  @media screen and (max-width: 768px) {
+    .places__place-heading {
+      line-height: 1;
+      }
+    }
+  @media screen and (max-width: 414px) {
+      .places__place-heading {
+        display: none;
+        }
+    }

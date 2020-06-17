@@ -1,11 +1,14 @@
 @import url(./__lang/_active/link__lang_active.css);
 
 .link {
+  display: inline-block;
   color: white;
   text-decoration: none;
   opacity: 1;
+  transition: transform  .4s ease-in;
 }
 
 .link:hover {
   opacity: .8;
+  transform: scale(1.5);
 }
