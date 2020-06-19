@@ -1,14 +1,5 @@
-/*
-
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
-*/
-
 @font-face {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-style:  normal;
   font-weight: 900;
   font-display: swap;
@@ -17,7 +8,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 @font-face {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-style:  normal;
   font-weight: normal;
   font-display: swap;
@@ -26,7 +17,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 @font-face {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-style:  normal;
   font-weight: bold;
   font-display: swap;
