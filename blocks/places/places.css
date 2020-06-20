@@ -2,6 +2,9 @@
 @import url(./__item/places__item.css);
 @import url(./__place-heading/places__place-heading.css);
 @import url(./__place-link/places__place-link.css);
+@import url(./__title/places__title.css);
+@import url(./__text/places__text.css);
+@import url(./__paragraph/places__paragraph.css);
 
 .places {
   max-width: calc(100vw - (100vw - 984px));
