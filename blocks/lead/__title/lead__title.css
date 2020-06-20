@@ -11,8 +11,9 @@
   line-height: 104%;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 736px) {
   .lead__title {
+    max-width: calc(100vw - 32px);
     font-size: 86px;
     line-height: 1.1;
     }
@@ -20,7 +21,7 @@
 
 @media screen and (max-width: 600px) {
   .lead__title  {
-    max-width: calc(100vw - 32px);
+
     font-size: 54px;
     }
 }

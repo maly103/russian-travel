@@ -1,9 +1,0 @@
-@import url(./__lead/section-subtitle__lead.css);
-@import url(./__cover/section-subtitle__cover.css);
-
-.section-subtitle {
-  font-family: "Inter", sans-serif;
-  font-weight: normal;
-  text-align: center;
-  box-sizing: border-box;
-}
