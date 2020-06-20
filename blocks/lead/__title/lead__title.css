@@ -19,10 +19,9 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 667px) {
   .lead__title  {
-
-    font-size: 54px;
+     font-size: 54px;
     }
 }
 
