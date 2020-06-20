@@ -13,12 +13,24 @@
   line-height: 106%;
 }
 
+@media screen and (max-width: 768px){
+  .cover__title {
+    max-width: calc(100vw - 208px);
+    }
+  }
+  @media screen and (max-width: 600px){
+    .cover__title {
+      max-width: calc(100vw - 32px);
+      font-size: 32px;
+      line-height: 109%;
+      }
+    }
+
 @media screen and (max-width: 320px){
   .cover__title {
     max-width: 260px;
     margin: 0 0 16px;
     padding: 0  16px;
-    font-size: 32px;
-    line-height: 109%;
+
   }
   }
