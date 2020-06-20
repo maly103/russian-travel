@@ -1,8 +1,0 @@
-@import url(./__intro/section-text__intro.css);
-@import url(./__place-text/section-text__place-text.css);
-
-
-.section-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: normal;
-}
