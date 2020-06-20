@@ -1,6 +1,6 @@
 title: Путешествие по России
 subtitle: Настоящая страна не в выпусках новостей, а здесь.
-link: [https://maly103.github.io/russian-travel/index.html]
+link: [https://maly103.github.io/russian-travel/]
 ___________________________
 
 Проектная работа №3 создана в учебных целях и представляет собой одностроничный
