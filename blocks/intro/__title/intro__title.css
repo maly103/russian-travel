@@ -6,6 +6,15 @@
   padding-top: 5px;
   font-size: 54px;
   line-height: 107%;
+  max-width: 690px;
+}
+
+@media screen and (max-width: 768px){
+  .intro__title {
+    max-width: calc(100vw - 48px);
+    font-size: 32px;
+    line-height: 109%;
+    }
 }
 
 @media screen and (max-width: 320px){

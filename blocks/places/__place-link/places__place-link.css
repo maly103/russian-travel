@@ -15,7 +15,7 @@
   opacity: .8;
   }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
   .places__place-link {
     display: none;
   }
