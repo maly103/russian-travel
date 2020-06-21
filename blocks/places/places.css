@@ -5,6 +5,7 @@
 @import url(./__title/places__title.css);
 @import url(./__text/places__text.css);
 @import url(./__paragraph/places__paragraph.css);
+@import url(./__image/places__image.css);
 
 .places {
   max-width: calc(100vw - (100vw - 984px));
@@ -21,7 +22,7 @@
 
 @media screen and (max-width: 768px){
   .places {
-      max-width: 720px;
+      max-width: calc(100vw - 48px);
       margin: 88px 24px;
 }
 }

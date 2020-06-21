@@ -9,15 +9,13 @@
   padding: 0;
   color: white;
   display: block;
-  transition: transform .4s ease-in;
-}
+ }
 
 .places__place-link:hover {
   opacity: .8;
-  transform: scale(1.5);
-}
+  }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
   .places__place-link {
     display: none;
   }

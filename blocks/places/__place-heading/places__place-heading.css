@@ -20,7 +20,7 @@
       line-height: 1;
       }
     }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
       .places__place-heading {
         display: none;
         }

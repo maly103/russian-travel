@@ -16,11 +16,12 @@
       }
   }
 
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 768px) {
     .lead__subtitle  {
       max-width: calc(100vw - 32px);
       }
   }
+
 
   @media screen and (max-width: 320px) {
     .lead__subtitle {

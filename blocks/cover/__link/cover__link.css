@@ -24,8 +24,7 @@
   }
 
  .cover__link:hover:before {
-  content: "";
-  opacity: 0.8;
+   opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px){
