@@ -2,7 +2,7 @@
   grid-area: web;
   align-self: end;
   justify-self: start;
-  font-family: Inter;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-size: 18px;
   line-height: 122%;
   margin:  0;
