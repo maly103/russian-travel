@@ -3,7 +3,7 @@
   min-width: 320px;
   padding-bottom: 24px;
   background: #2A2C2F;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   margin: 0 auto;
   text-rendering: optimizeLegibility;
 }
